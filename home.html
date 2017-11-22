@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Luxicon</title>
+	<!-- tab logo -->
+	<link rel="icon" href="assets/img/logo/luxico_logo001.jpg">
+	<!-- meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- for SEO -->
+	<meta name="description" content="">
+	<!-- font links -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700" rel="stylesheet">
+	<!-- icon links -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/img/icon/fontello-404173f6/css/fontello.css"> 
+	<!-- reset all browsers -->
+	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css"> 
+	<!-- bootstrap css file -->
+	<link rel="stylesheet" type="text/css" href="assets/libs/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+	<!-- customized css file -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+	<!-- Menu Navbar -->
+	<nav id="menu" class="navbar navbar-inverse fixed-top navbar-toggleable-md bg-faded make-transparent">
+		<!-- container -->
+		<div class="container">
+			<!-- Brand Logo -->
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand" href="#"><img src="assets/img/logo/logo_small.png" alt="LUXICO"></a>
+			<!-- Navbar Links -->
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav ml-auto">
+					<a id="properties-navlink" class="nav-item nav-link" href="#">PROPERTIES</a>
+					<a id="experience-navlink" class="nav-item nav-link" href="#">EXPERIENCE</a>
+					<a id="contact-navlink" class="nav-item nav-link" href="#">CONTACT</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+
+	<!-- Panel  Section  -->
+	<!-- Carousel slide effect -->
+	<div id="panel-sect" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="false">
+		<div class="carousel-inner" role="listbox">
+			<!-- first image -->
+			<div class="carousel-item active">
+				<div id="slide1" class="slide"></div>
+			</div>
+			<!-- second image -->
+			<div class="carousel-item">
+				<div id="slide2" class="slide"></div>
+			</div>
+			<!-- third image -->
+			<div class="carousel-item">
+				<div id="slide3" class="slide"></div>
+			</div>
+		</div>
+		<!-- Static title -->
+		<div class="main-text hidden-xs">
+			<div class="col-md-12 text-center">
+				<h1>BETTER THAN A HOTEL</h1>
+				<p>Unique accomodation experiences in some of Australia's most beautiful homes</p>
+			</div>
+		</div>
+		<!-- Search Form-->
+		<div class="search-homes hidden-xs">
+			<div id="search-form" class="col-md-12 text-center">
+				<form  class="form-inline" align="center">
+					<!-- Destination dropdown -->
+					<div  class="form-group">
+						<select id="input1" class="form-control" name="destination">
+							<option value="" disabled selected>DESTINATION</option>
+							<option value="Melbourne">Melbourne</option>
+							<option value="Sydney">Sydney</option>
+							<option value="Byron">Byron Bay</option>
+						</select>
+					</div>
+					<!-- Guests dropdown -->
+					<div  class="form-group">
+						<select id="input2" class="form-control" name="guests">
+							<option value="" disabled selected>GUESTS</option>
+							<option value="1Guests">1 Guests</option>
+							<option value="2Guests">2 Guests</option>
+							<option value="3Guests">3 Guests</option>
+						</select>
+					</div>
+					<!-- Arrival date calendar input -->
+					<div class="form-group">
+						<input id="date-a" name="arriving" required="" type="text" class="form-control" placeholder="ARRIVING" onfocus="(this.type='date')" onblur="(this.type='text')">
+					</div>
+					<!-- Departure date calendar input -->
+					<div class="form-group">
+						<input id="date-d" name="departing" required="" type="text" class="form-control" placeholder="DEPARTING" onfocus="(this.type='date')" onblur="(this.type='text')">
+					</div>
+					<!-- Submit input button -->
+					<div class="form-group">
+						<input id="input3" type="submit" name="search-homes" class="btn btn-clear btn-sm btn-min-block" value="SEARCH HOMES">
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- Link to next window - arrow -->
+		<div class="arrow hidden-xs">
+			<div class="col-md-12">
+				<a href="#experience-sect"><img src="assets/img/image/panel/arrow_down.png" class="d-block mx-auto"></a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Luxico Difference Section -->
+	<div id="lux-diff-sect">
+		<div id="lux-diff" class="container">
+			<div class="row">
+				<div id="lux-diff-title" class="col-12 text-center">
+					<h5>THE LUXICO DIFFERENCE</h5>
+				</div>
+				<div id="" class="lux-diff-cat col-4 text-center">
+					<img src="assets/img/image/difference/properties.png" class="img-fluid d-block mx-auto">
+					<h5>PROPERTIES</h5>
+					<p>Luxico is unlocking the doors to the most beautiful homes in Australia, New Zealand and Asia. Wether little or large, all Luxico propertiesexude charm, character ora distict designer edge to suit different tastesand reflect the style of the location.</p>
+				</div>
+				<div class="lux-diff-cat col-4 text-center">
+					<img src="assets/img/image/difference/experience.png" class="img-fluid d-block mx-auto">
+					<h5>EXPERIENCES</h5>
+					<p>The perfect holiday accomodation is just the first step to a memorable holiday experience. We take concerge service to a new level with our own team of 'Superhosts' in each location who loves to share their local knowledge to help you plan the best possible holiday. Think beyond the tourist traps to experience the true essence of a place.</p>
+				</div>
+				<div class="lux-diff-cat col-4 text-center">
+					<img src="assets/img/image/difference/membership.png" class="img-fluid d-block mx-auto">
+					<h5>MEMBERSHIP</h5>
+					<p>Our members enjoy a range of added inclusions when staying in any Luxico home, as well as bespoke travel services and members rates. Upgrade to enjoy member priviliges or join the annual membership for an opportunity to travel more often.</p>
+				</div>
+			</div>
+			<div class="lux-diff-btn row">
+				<div class="col-4 text-center">
+					<button class="btn btn-sm btn-min-block">VIEW PROPERTIES</button>
+				</div>
+				<div class="col-4 text-center">
+					<button class="btn btn-sm btn-min-block">EXPERIENCE MORE</button>
+				</div>
+				<div class="col-4 text-center">
+					<button class="btn btn-sm btn-min-block">BECOME A MEMBER</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Experience Section-->
+	<div id="experience-sect" class="slide">
+		<div class="">
+			<div id="dark-col" class="col-4">
+				<div class="">
+					<img src="assets/img/image/experience/upper_line.png">
+					<h4>EXPERIENCE</h4>
+					<p>We go beyond the basic tips and recommendation on the best places to eat, drink and shop - From the creation of your very own Tedy Bear Picnic, guided night walking tours or a bespoken travel itinerary, including uber-lux experience, yacht charter and degustation luch from a top chef to surf lessons with ex-world champion. If you can dream it, we will make it happen.</p>
+					<button class="btn btn-sm btn-min-block">FIND OUT MORE</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Membership Section -->
+	<div id="members-sect">
+		<div id="membership-sect">
+			<!-- members main -->
+			<div class="row">
+				<div class="col-6">
+					<img id="img-members" src="assets/img/image/members/9WtCIv.png" class="d-block mx-auto">
+				</div>
+				<div class="col-6">
+					<h5 id="members-title">Members</h5>
+					<p id="members-main">Join an explusive group of people that love to travel. Our members want to get away more often so we are expandingrapidly, seeking out beautiful homes and creating unique local experiences in many new locations.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<hr id="hr-members">
+				</div>
+			</div>
+			<!-- members option -->
+			<div class="row">
+				<div class="col-4">
+					<h5 class="members-opt">MEMBER BENEFITS</h5>
+					<p class="members-opt-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class="col-4">
+					<h5 class="members-opt">BECOME A MEMBER</h5>
+					<p class="members-opt-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class="col-4">
+					<h5 class="members-opt">MEMBER EXPERIENCES</h5>
+					<p class="members-opt-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+			<!-- Link to next window - arrow -->
+			<div class="arrow hidden-xs">
+				<div class="col-md-12">
+					<a href="#blog-sect"><img src="assets/img/image/panel/arrow_down.png" class="d-block mx-auto"></a>
+				</div>
+			</div>
+		</div>	
+	</div>
+	
+
+	<!-- Join Lux Home section -->
+	<div id="join-sect" class="">
+		<div class="join-question">
+			<h1 class="text-center">Could your home be a LUXICO home?</h1>
+			<div class="lux-diff-btn">
+				<button class="btn btn-sm btn-min-block d-block mx-auto">Find out now</button>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Blog Section -->
+	<div id="blog-sect">
+		<div id="blog-cols" class="container">
+			<div  class="row">
+				<!-- User reference segment -->
+				<div class="segment col-6">
+					<div id="user-1" class="row">
+						<div class="ref-div col-3 text-center">
+							<div id="user-ref-1" class="rounded-circle"></div>
+							<!-- <div id="user-ref-1" class="rounded-circle"><img src="assets/img/image/blog/4PMnpS.png" /></div> -->
+							<p>Liv2119</p>
+						</div>
+						<div class="ref-div col-9">
+							<h5>VILLAGIO</h5>
+							<p>Spicy jalapeno bacon ipsum dolor amet ground round tail shankle, landjaeger bacon shoulder chuck shank jowl porchetta short loin sausage pork belly. Bresaola picanha corned beef pig biltong.</p>
+							<span><i class="circle-rate fa fa-circle" aria-hidden="true"></i><i class="circle-rate fa fa-circle" aria-hidden="true"></i><i class="circle-rate fa fa-circle" aria-hidden="true"></i><i class="circle-rate fa fa-circle" aria-hidden="true"></i><i  class="circle-no-rate fa fa-circle" aria-hidden="true"></i></span>
+						</div>						
+					</div>	
+					<div id="user-2" class="row">
+						<div class="ref-div col-3 text-center">
+							<div id="user-ref-2" class="rounded-circle"></div>
+							<!-- <div id="user-ref-1" class="rounded-circle"><img src="assets/img/image/blog/4PMnpS.png" /></div> -->
+							<p>Liv2119</p>
+						</div>
+						<div class="ref-div col-9">
+							<h5>PHOENIx</h5>
+							<p>Spicy jalapeno bacon ipsum dolor amet ground round tail shankle, landjaeger bacon shoulder chuck shank jowl porchetta short loin sausage pork belly. Bresaola picanha corned beef pig biltong.</p>
+							<span><i class="circle-rate fa fa-circle" aria-hidden="true"></i><i class="circle-rate fa fa-circle" aria-hidden="true"></i><i class="circle-rate fa fa-circle" aria-hidden="true"></i><i class="circle-rate fa fa-circle" aria-hidden="true"></i><i class="circle-no-rate fa fa-circle" aria-hidden="true"></i></span>
+						</div>						
+					</div>		
+					<div id="user-3" class="row">
+						<div class="ref-div col-3 text-center">
+							<div id="user-ref-3" class="rounded-circle"></div>
+							<!-- <div id="user-ref-1" class="rounded-circle"><img src="assets/img/image/blog/4PMnpS.png" /></div> -->
+							<p>Liv2119</p>
+						</div>
+						<div class="ref-div col-9">
+							<h5>Tranquiality</h5>
+							<p>Spicy jalapeno bacon ipsum dolor amet ground round tail shankle, landjaeger bacon shoulder chuck shank jowl porchetta short loin sausage pork belly. Bresaola picanha corned beef pig biltong.</p>
+							<span><i class="circle-rate fa fa-circle" aria-hidden="true"></i><i class="circle-rate fa fa-circle" aria-hidden="true"></i><i class="circle-rate fa fa-circle" aria-hidden="true"></i><i class="circle-rate fa fa-circle" aria-hidden="true"></i><i class="circle-no-rate fa fa-circle" aria-hidden="true"></i></span>
+						</div>						
+					</div>	
+				</div>
+				<!-- Image links to blog and media -->
+				<div id="blog-imgs" class="col-6">
+					<div id="img-crop-1" class="img-crop text-center">
+						<table>
+							<tbody>
+								<tr>
+									<td class="align-middle">
+										<h3 >BLOG</h3>
+										<h4>Lux Insider</h4>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div id="img-crop-2" class="img-crop text-center">
+						<table>
+							<tbody>
+								<tr>
+									<td class="align-middle">
+										<h4 class="align-middle">Media</h4>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Partners Section -->
+	<div id="partner-sect">
+		<div class="container">
+			<div class="row">
+				<div id="partner-title" class="text-center col-12">
+					<h3>PARTNERS</h3>
+				</div>
+			</div>
+			<div id="partner-logos" class="row">
+				<div class="col-4">
+					<img src="assets/img/image/partners/southwood.png" class="img-fluid d-block mx-auto">
+				</div>
+				<div class="logo-align small-logo col-4">
+					<img src="assets/img/image/partners/cocorep.png" class="img-fluid d-block mx-auto">
+				</div>
+				<div class="logo-align col-4">
+					<img src="assets/img/image/partners/markdouglass.png" class="img-fluid d-block mx-auto">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Footer  -->
+	<div id="footer-sect">
+		<div class="container">
+			<div class="row">
+				<div class="col-8">
+					<h5 id="footer-lux">LUXICO</h5>
+					<!-- <a href="#"><img src="assets/img/logo/logo_small.png" alt="LUXICO"></a> -->
+				</div>
+				<div class="col-4">
+					<h5 id="footer-cont">CONTACT US</h5>
+				</div>
+			</div>
+			<div id="footer-cat-contact" class="row">
+				<div class="col-8">
+					<div id="footer-links">
+						<div class="row">
+							<div class="col-2 col-auto">
+								<a href="#">HOME</a>
+							</div>
+							<div class="col-4 col-auto">
+								<a href="#">LIST YOUR HOME</a>
+								<a href="#">MEMBERS</a>
+							</div>
+							<div class="col-3 col-auto">
+								<a href="#">SEARCH</a>
+								<a href="#">EXPERIENCE</a>
+							</div>
+							<div class="col-3 col-auto">
+								<a href="#">MEDIA</a>
+								<a href="#">ONEFINESTAY</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-4">
+					<p>
+						MELBOURNE: +61(0)386790320 <br>
+						SYDNEY: +61(0)280466206 <br>
+						stay@luxico.com.au
+					</p>
+					<div>
+						<a href="https://www.facebook.com/luxicoholidays/"><i class="icon-facebook-circled"></i></a>
+						<a href="https://twitter.com/LUXICOaustralia"><i class="icon-twitter-circled"></i></a>
+						<a href="https://www.pinterest.de/luxicohomes/"><i class="icon-pinterest-circled"></i></a>
+					</div>
+				</div>
+			</div>
+			<div id="footer-fp" class="row">
+				<div class="col-8">
+					<p><a href="#">Privacy Policy</a> | <a href="#">Booking Agreement</a> | <a href="#">Terms and Conditions</a></p>
+				</div>
+				<div class="col-4">
+					<p id="footer-signature">Designed By <img src="assets/img/image/footer/Mine-logo-tur.png"> <span id="footer-design">Mine</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery file -->
+	<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+	<!-- Tether cdn file -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<!-- bootstrap js file  -->
+	<script type="text/javascript" src="assets/libs/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
+	<!-- custom js file -->
+	<script type="text/javascript" src="assets/js/home.js"></script>
+</body>
+</html>

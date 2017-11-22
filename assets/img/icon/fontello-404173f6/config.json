@@ -1,0 +1,28 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "ce1d525f3f31024c6a6b38f5e9a88953",
+      "css": "facebook-circled",
+      "code": 62221,
+      "src": "entypo"
+    },
+    {
+      "uid": "0419da6446cb4f31093e2022793571ca",
+      "css": "twitter-circled",
+      "code": 62218,
+      "src": "entypo"
+    },
+    {
+      "uid": "2e9c0fdd4d59598cb122801ab80222e7",
+      "css": "pinterest-circled",
+      "code": 62227,
+      "src": "entypo"
+    }
+  ]
+}
